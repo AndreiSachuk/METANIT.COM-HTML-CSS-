@@ -1,0 +1,48 @@
+<!-- Здесь определены стили для ссылок в различных состояниях. a:link применяется для ссылок в обычном состоянии, когда они не нажаты и на них не наведен указатель мыши.
+a:visited указывает на состояние ссылки, по которой уже был осуществлен переход.
+a:hover указывает на состояние ссылки, на которую навели указатель мыши.
+a:active указывает на ссылку в нажатом состоянии.
+Стиль color устанавливает цвет ссылки. А стиль text-decoration устанавливает подчеркивание: если значение underline, то ссылка поддчеркнута, если none, то подчеркивание отсутствует.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ссылки</title>
+    <style>
+        a:link {
+            color: blue;
+            text-decoration: none
+        }
+        
+        a:visited {
+            color: pink;
+            text-decoration: none
+        }
+        
+        a:hover {
+            color: red;
+            text-decoration: underline
+        }
+        
+        a:active {
+            color: yellow;
+            text-decoration: underline
+        }
+    </style>
+</head>
+
+<body>
+    <div><a href="стилизация ссылок.html">Учебник по HTML5</a></div>
+
+    <!--Поместив внутрь элемента <a> элемент <img>, можно сделать ссылку-изображение:-->
+    <div>
+        <a href="index.html">
+            <img src="list.png" alt="стилизация ссылок">
+        </a>
+    </div>
+
+</body>
+
+</html>
