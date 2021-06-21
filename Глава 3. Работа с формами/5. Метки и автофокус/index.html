@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Label в HTML5</title>
+    </head>
+    <body>
+        <form>
+            <p>
+                <label for="login">Логин: </label>
+                <input type="text" id="login" name="login" />
+            </p>
+            <p>
+                <label for="password">Пароль: </label>
+                <input type="password" id="password" name="password" />
+            </p>
+            <p>
+                <button type="submit">Отправить</button>
+            </p>
+        </form>
+
+        <!--Собственно на этом роль меток и заканчивается. Также мы можем установить автофокус по умолчанию на какое-либо поле ввода. Для этого применяется атрибут autofocus:-->
+        <!--Здесь при запуске страницы фокус сразу же переходит на текстовое поле.-->
+        <form>
+            <p>
+                <label for="login1">Логин: </label>
+                <input type="text" autofocus id="login1" name="login1" />
+            </p>
+            <p>
+                <label for="password1">Пароль: </label>
+                <input type="password" id="password1" name="password1" />
+            </p>
+            <p>
+                <button type="submit">Отправить</button>
+            </p>
+        </form>
+    </body>
+</html>
