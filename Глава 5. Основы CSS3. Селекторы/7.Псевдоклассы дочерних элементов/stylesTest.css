@@ -1,0 +1,12 @@
+.foo li:nth-child(1) {
+    background-color: rgb(255, 255, 0);
+}
+
+
+
+.foo ul:nth-child(1) li:nth-child(n+2) {
+    background-color: red;
+}
+.foo ul:nth-child(1) li:nth-last-child(1) {
+    background-color: green;
+}

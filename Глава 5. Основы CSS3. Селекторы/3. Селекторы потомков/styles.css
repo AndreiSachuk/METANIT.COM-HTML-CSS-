@@ -1,0 +1,17 @@
+#main p {
+    font-size: 16px;
+}
+
+#footer p {
+    font-size: 13px;
+}
+
+/*вложенный элемент в элемент списка с классом redLink будет красный*/
+li .redLink {
+    color: red;
+}
+
+/*элемент списка с классом blueLink будет синий*/
+li.blueLink {  
+    color: blue;
+}

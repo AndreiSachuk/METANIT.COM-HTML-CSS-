@@ -1,0 +1,23 @@
+tr:nth-child(odd) {
+    background-color: #bbb;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+tr:nth-child(3n+2) {
+    background-color: #f00;
+}
+tr:nth-last-child(2) { 
+    background-color: #00f; /* 2 строка с конца, то есть предпоследняя  */
+}
+tr:nth-last-child(2n+1) {  
+    background-color: rgba(84, 240, 214, 0.356); /* нечетные строки, начиная с конца  */
+}
+
+/*Псевдокласс :nth-of-type позволяет выбрать дочерний элемент определенного типа по определенному номеру:*/
+
+tr:nth-of-type(2) { 
+    background-color: #990;
+}

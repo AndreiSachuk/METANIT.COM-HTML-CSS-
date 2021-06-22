@@ -1,0 +1,47 @@
+a {
+    font-size: 18px;
+}
+
+.nav li a {
+    color: red;
+}
+
+/* красный цет текста */
+
+#menu a {
+    color: navy;
+}
+
+/* темно-синий цет текста */
+
+.nav .menuItem {
+    color: green;
+}
+
+/* зеленый цет текста */
+
+a.menuItem:not(.newsLink) {
+    color: orange;
+}
+
+/* оранжевый цет текста */
+
+div ul li a {
+    color: gray;
+}
+
+/* серый цет текста */
+
+
+
+/*Правило !important*/
+
+.nav li a {
+    color: red !important;
+}
+
+#search{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
