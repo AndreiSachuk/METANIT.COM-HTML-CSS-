@@ -1,0 +1,15 @@
+.article1 {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+.article2 {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}

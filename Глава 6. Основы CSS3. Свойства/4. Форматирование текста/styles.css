@@ -1,0 +1,49 @@
+h1{
+    text-shadow: 1px -4px 3px rgb(199, 52, 52);
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+p.under {
+    text-decoration: underline;
+}
+
+p.over {
+    text-decoration: overline;
+}
+
+p.line {
+    text-decoration: line-through;
+}
+
+p.mixed {
+    text-decoration: underline line-through;
+}
+
+a.none {
+    text-decoration: none;
+}
+
+p.smallLetterSpace {
+    letter-spacing: -1px;
+}
+p.bigLetterSpace {
+    letter-spacing: 1px;
+}
+p.smallWordSpace{
+    word-spacing: -1px;
+}
+p.bigWordSpace{
+    word-spacing: 1px;
+}
+

@@ -1,0 +1,11 @@
+.decimal {
+    list-style-type: decimal;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+ul{
+    list-style-image:url(https://w7.pngwing.com/pngs/282/408/png-transparent-computer-icons-telephone-iphone-touch-screen-mobile-phone-thumbnail.png);
+}

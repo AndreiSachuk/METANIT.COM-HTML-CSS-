@@ -1,0 +1,10 @@
+div{
+    width: 128px;
+    height: 96px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    outline-color: red;
+    outline-style: dashed;
+    outline-width: 2px;
+}

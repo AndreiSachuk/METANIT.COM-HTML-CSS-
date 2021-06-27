@@ -1,0 +1,31 @@
+div{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #ccc;
+    background-color: #eee;
+}
+div.outer1  {
+    box-sizing: content-box;
+}
+div.outer2{
+    box-sizing: border-box;
+}
+
+div.outer {
+    width: 75%;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+div.inner {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 1px solid red;
+    background-color: blue;
+}
+

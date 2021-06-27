@@ -1,0 +1,16 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+     
+    background-color: #eee;
+    background-image: radial-gradient(25% 30%, circle farthest-corner, white, black);
+    background-image: -moz-radial-gradient(25% 30%, circle farthest-corner, white, black);
+    background-image: -webkit-radial-gradient(25% 30%, circle farthest-corner, white, black);
+}
+p{
+    margin: 0;
+    padding-top: 60px;
+    text-align: center;
+    color: #eee;
+}
