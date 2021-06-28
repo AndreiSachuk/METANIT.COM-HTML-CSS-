@@ -1,0 +1,38 @@
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+}
+
+#header {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+}
+
+#wrapper {
+    background-color: #ddd;
+    height: 150px;
+}
+
+#menu {
+    float: left;
+    width: 150px;
+    
+}
+
+#main {
+    background-color: #f7f7f7;
+    border-left: 1px solid #ccc;
+    margin-left: 150px;
+    padding: 10px;
+    height: 150px;
+}
+
+#footer {
+    border-top: 1px solid #ccc;
+    background-color: #dedede;
+}

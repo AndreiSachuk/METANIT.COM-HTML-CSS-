@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 40px 30px;
+    border: 1px solid #333;
+    background-color: #ccc;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+div:hover {
+    background-color: red;
+}

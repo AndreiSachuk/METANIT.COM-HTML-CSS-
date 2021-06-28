@@ -1,0 +1,33 @@
+div {
+    background-color: #ccc;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    display: inline-block;
+}
+
+.rotated {
+    transform: rotate(30deg);
+}
+
+.halfScale {
+    transform: scale(0.5);
+}
+
+.doubleScale {
+    transform: scale(2);
+}
+
+.scale1{
+    transform: scale(2, 0.5);
+}
+.scaleOTR{
+    transform: scaleX(-1);
+}
+.translated{
+    transform: translate(0px, 0px);
+    background-color:red;
+}

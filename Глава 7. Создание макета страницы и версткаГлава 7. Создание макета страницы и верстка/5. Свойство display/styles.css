@@ -1,0 +1,15 @@
+span {
+    color: red;
+}
+
+.blockSpan {
+    display: block;
+}
+
+.divline{
+    display: inline;
+}
+
+.invisible{
+    display: none;
+}
