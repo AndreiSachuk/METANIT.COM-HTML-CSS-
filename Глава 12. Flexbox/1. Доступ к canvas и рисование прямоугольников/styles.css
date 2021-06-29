@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    border: 2px solid #ccc;
+}
+
+.inline-flex-container {
+    display: inline-flex;
+    border: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+.flex-item {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 1.5em;
+    color: white;
+}
+
+.color1 {
+    background-color: #675BA7;
+}
+
+.color2 {
+    background-color: #9BC850;
+}
+
+.color3 {
+    background-color: #A62E5C;
+}

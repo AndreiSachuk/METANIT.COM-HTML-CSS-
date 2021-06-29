@@ -1,0 +1,22 @@
+:root {
+    --tex-color: #ff4757;
+    --text-size: 20px;
+    --reserved-color: #5352ed;
+}
+
+div {
+    height: 35px;
+    font-family: Verdana;
+}
+
+#div1 {
+    color: var(--text-color, var(--reserved-color));
+}
+
+#div2 {
+    color: var(--text-color, var(--reserved-color, red));
+}
+
+#div3 {
+    color: var(--text-color, #2ed573);
+}

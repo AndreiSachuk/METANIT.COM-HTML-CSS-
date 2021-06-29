@@ -1,0 +1,15 @@
+.user-name:after {
+    content: var(--name);
+}
+
+.user-age:after {
+    content: var(--age);
+}
+
+.user-email:after {
+    content: var(--email);
+}
+
+.user-address:after {
+    content: var(--address);
+}

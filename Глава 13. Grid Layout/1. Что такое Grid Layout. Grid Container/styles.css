@@ -1,0 +1,28 @@
+.grid-container {
+    border: solid 2px #000;
+    /*display: grid;*/
+    display: inline-grid;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 1.5em;
+    color: white;
+}
+
+.color1 {
+    background-color: #675BA7;
+}
+
+.color2 {
+    background-color: #9BC850;
+}
+
+.color3 {
+    background-color: #A62E5C;
+}
+
+.color4 {
+    background-color: #2A9FBC;
+}
